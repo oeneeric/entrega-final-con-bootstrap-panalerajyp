@@ -1,0 +1,26 @@
+@import "variables";
+
+header{
+       background-color: $fondoclaro;
+      
+      div{
+          display: flex;
+          justify-content: center;
+          
+          img{
+              width: 200px;
+               padding: 20px;
+               transition: 0.5s;
+               &:hover{
+                       width: 230px;
+               }
+          } 
+      }
+}
+
+
+.barranav__header{
+                 display: flex;
+                 align-items: flex-end;
+                 font-size: 17px;
+}

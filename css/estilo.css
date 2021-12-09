@@ -1,0 +1,54 @@
+@charset "UTF-8";
+header {
+  background-color: ghostwhite; }
+  header div {
+    display: flex;
+    justify-content: center; }
+    header div img {
+      width: 200px;
+      padding: 20px;
+      transition: 0.5s; }
+      header div img:hover {
+        width: 230px; }
+
+.barranav__header {
+  display: flex;
+  align-items: flex-end;
+  font-size: 17px; }
+
+main {
+  background-image: url(../assets/img/fondoimg.jpg);
+  height: 1200px; }
+  main h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    transition: 1s; }
+    main h1:hover {
+      font-size: 55px; }
+
+footer {
+  background-color: ghostwhite; }
+  footer .contenedor__logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px; }
+    footer .contenedor__logofooter .tamañologofooter {
+      width: 125px;
+      padding: 35px; }
+
+.contacto-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 10px; }
+
+* {
+  margin: 0px;
+  color: black !important;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Mochiy Pop P One', sans-serif; }

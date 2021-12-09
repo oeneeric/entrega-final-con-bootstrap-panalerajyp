@@ -1,0 +1,25 @@
+@import "variables";
+
+footer{
+	background-color: $fondoclaro;
+
+	.contenedor__logofooter{
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							font-size: 10px;
+			
+							.tamañologofooter{
+							 				 width: 125px;
+											 padding: 35px;
+							}
+	}
+}
+
+.contacto-redes{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px;
+		font-size: 10px;
+	}
