@@ -1,18 +1,18 @@
-@import "variables";
+@import "sass2";
 
 footer{
-	background-color: $fondoclaro;
+	background-color: map-get($paletaColores, primario);
 
 	.contenedor__logofooter{
-							display: flex;
-							justify-content: center;
-							align-items: center;
-							font-size: 10px;
-			
-							.tamañologofooter{
-							 				 width: 125px;
-											 padding: 35px;
-							}
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 10px;
+
+		.tamañologofooter{
+			width: 125px;
+		 	padding: 35px;
+		}
 	}
 }
 

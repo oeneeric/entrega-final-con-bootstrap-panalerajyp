@@ -1,14 +1,26 @@
 @charset "UTF-8";
+.boton--enviar, .boton--resetear {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.boton--resetear {
+  width: 150px;
+  background-color: lightgrey; }
+
 header {
   background-color: ghostwhite; }
-  header div {
+  header .contenedor__logoheader {
     display: flex;
     justify-content: center; }
-    header div img {
+    header .contenedor__logoheader img {
       width: 200px;
       padding: 20px;
       transition: 0.5s; }
-      header div img:hover {
+      header .contenedor__logoheader img:hover {
         width: 230px; }
 
 .barranav__header {
@@ -16,17 +28,43 @@ header {
   align-items: flex-end;
   font-size: 17px; }
 
-main {
+.boton--enviar, .boton--resetear {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.boton--resetear {
+  width: 150px;
+  background-color: lightgrey; }
+
+.imagen__fondo {
   background-image: url(../assets/img/fondoimg.jpg);
   height: 1200px; }
-  main h1 {
+  .imagen__fondo h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 100px;
-    transition: 1s; }
-    main h1:hover {
-      font-size: 55px; }
+    padding-top: 100px; }
+  .imagen__fondo .contenido__paginas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; }
+
+.boton--enviar, .boton--resetear {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.boton--resetear {
+  width: 150px;
+  background-color: lightgrey; }
 
 footer {
   background-color: ghostwhite; }
@@ -45,6 +83,18 @@ footer {
   align-items: center;
   padding: 5px;
   font-size: 10px; }
+
+.boton--enviar, .boton--resetear {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.boton--resetear {
+  width: 150px;
+  background-color: lightgrey; }
 
 * {
   margin: 0px;

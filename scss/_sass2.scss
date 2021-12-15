@@ -1,0 +1,34 @@
+// MAPS 
+
+$paletaColores:(
+	primario: ghostwhite,
+	secundario: grey,
+	negro: black,
+	blanco: #fff,
+	);
+
+// EXTEND
+
+.boton--enviar{
+	width: 100px;
+	background-color: white;
+	color: black;
+	font-size: 15px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.boton--resetear{
+	@extend .boton--enviar;
+	width: 150px;
+	background-color: lightgrey;
+}
+
+// MIXIN
+
+@mixin flex-center-column {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}

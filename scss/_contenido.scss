@@ -1,17 +1,18 @@
-main {
-	 background-image: url(../assets/img/fondoimg.jpg);
-	 height: 1200px;
-	
+@import "sass2";
+
+.imagen__fondo {
+	background-image: url(../assets/img/fondoimg.jpg);
+	height: 1200px;
+
 	h1 {
 		display: flex;
 		justify-content: center;
 		text-align: center;
 		padding-top: 100px;
-		transition: 1s;
-		
-		&:hover{
-		font-size: 55px;
-	    }
+	}
+
+	.contenido__paginas{
+		@include flex-center-column;
 	}
 }
 

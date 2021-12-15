@@ -1,26 +1,23 @@
-@import "variables";
+@import "sass2";
 
 header{
-       background-color: $fondoclaro;
-      
-      div{
+      background-color: map-get($paletaColores, primario);
+      .contenedor__logoheader{
           display: flex;
           justify-content: center;
-          
-          img{
-              width: 200px;
-               padding: 20px;
-               transition: 0.5s;
-               &:hover{
-                       width: 230px;
-               }
-          } 
+               img{
+                   width: 200px;
+                   padding: 20px;
+                   transition: 0.5s;
+                   &:hover{
+                     width: 230px;
+                   }
+               } 
       }
 }
 
-
 .barranav__header{
-                 display: flex;
-                 align-items: flex-end;
-                 font-size: 17px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 17px;
 }

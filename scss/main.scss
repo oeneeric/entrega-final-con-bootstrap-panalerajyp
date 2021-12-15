@@ -4,9 +4,11 @@
 
 @import "footer";
 
+@import "sass2";
+
 * {
 	margin: 0px;
-	color: black !important;
+	color: map-get($paletaColores, negro)!important;
 	text-decoration: none;
 	list-style-type: none;
 	font-family: 'Mochiy Pop P One', sans-serif;
