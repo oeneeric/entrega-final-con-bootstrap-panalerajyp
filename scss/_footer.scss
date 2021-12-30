@@ -2,6 +2,7 @@
 
 footer{
 	background-color: map-get($paletaColores, primario);
+	height: 280px;
 
 	.contenedor__logofooter{
 		display: flex;

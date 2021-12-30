@@ -17,11 +17,11 @@ header {
     display: flex;
     justify-content: center; }
     header .contenedor__logoheader img {
-      width: 200px;
+      width: 230px;
       padding: 20px;
       transition: 0.5s; }
       header .contenedor__logoheader img:hover {
-        width: 230px; }
+        width: 300px; }
 
 .barranav__header {
   display: flex;
@@ -42,12 +42,12 @@ header {
 
 .imagen__fondo {
   background-image: url(../assets/img/fondoimg.jpg);
-  height: 1200px; }
+  height: 1000px; }
   .imagen__fondo h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 100px; }
+    padding-top: 80px; }
   .imagen__fondo .contenido__paginas {
     display: flex;
     align-items: center;
@@ -67,7 +67,8 @@ header {
   background-color: lightgrey; }
 
 footer {
-  background-color: ghostwhite; }
+  background-color: ghostwhite;
+  height: 280px; }
   footer .contenedor__logofooter {
     display: flex;
     justify-content: center;
