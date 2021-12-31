@@ -55,12 +55,6 @@ header {
     text-align: center;
     flex-direction: column; }
 
-h3 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 50px; }
-
 .boton--enviar, .boton--resetear {
   width: 100px;
   background-color: white;
@@ -106,6 +100,12 @@ footer {
 .nuestras__marcas {
   display: flex;
   justify-content: center; }
+
+h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px; }
 
 * {
   margin: 0px;
