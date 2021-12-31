@@ -42,7 +42,7 @@ header {
 
 .imagen__fondo {
   background-image: url(../assets/img/fondoimg.jpg);
-  height: 1000px; }
+  height: 1050px; }
   .imagen__fondo h1 {
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@ footer {
   display: flex;
   justify-content: center; }
 
-h3 {
+.contenedor__marcas {
   display: flex;
   justify-content: center;
   text-align: center;
