@@ -47,12 +47,19 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 80px; }
+    padding-top: 80px;
+    padding-bottom: 50px; }
   .imagen__fondo .contenido__paginas {
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column; }
+
+h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px; }
 
 .boton--enviar, .boton--resetear {
   width: 100px;
@@ -67,8 +74,7 @@ header {
   background-color: lightgrey; }
 
 footer {
-  background-color: ghostwhite;
-  height: 280px; }
+  background-color: ghostwhite; }
   footer .contenedor__logofooter {
     display: flex;
     justify-content: center;
@@ -96,6 +102,10 @@ footer {
 .boton--resetear {
   width: 150px;
   background-color: lightgrey; }
+
+.nuestras__marcas {
+  display: flex;
+  justify-content: center; }
 
 * {
   margin: 0px;

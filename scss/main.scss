@@ -6,6 +6,8 @@
 
 @import "sass2";
 
+@import "marcas";
+
 * {
 	margin: 0px;
 	color: map-get($paletaColores, negro)!important;
